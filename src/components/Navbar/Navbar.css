@@ -1,0 +1,64 @@
+.Navbar{
+    background-color: transparent !important;
+    box-shadow: none;
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1029;
+    border-radius: 0;
+}
+
+.contaierFluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbarWrapper{
+    display: inline-flex;
+    align-items: center;
+}
+.navbarBrand{
+    position: relative;
+    color: inherit;
+    height: 50px;
+    font-size: 1.125rem;
+    line-height: 30px;
+    padding: 0.625rem 0;
+    font-weight: 300;
+    margin: 0 1rem 0;
+    color: #666;
+    float: left;
+}
+.collapse{
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    float: right;
+}
+.navbarNav{
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: inline-block;
+}
+.navbarNav .navbarNavItem{
+    display: inline-block;
+    padding: 12px 10px 10px;
+    margin-top: 5px;
+}
+.navbarNavItem{
+  color: #555;
+  text-decoration: none;
+}
+.navbarNavItem:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #ff9800;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4);
+  border-radius: 6px;
+  padding: 10px 20px;
+}

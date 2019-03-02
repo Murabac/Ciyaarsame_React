@@ -1,0 +1,125 @@
+.header{
+  color: red;
+}
+.SideBar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    width: 260px;
+    background: #fff;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.logo{
+    padding: 15px 0px;
+    margin: 0;
+    display: block;
+    position: relative;
+    z-index: 4;
+}
+.logo::after{
+  content: '';
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    height: 1px;
+    width: calc(100% - 30px);
+    background-color: rgba(180, 180, 180, 0.3);
+}
+.simpleText{
+    text-transform: uppercase;
+    padding: 5px 0px;
+    display: inline-block;
+    font-size: 18px;
+    color: #3C4858;
+    white-space: nowrap;
+    font-weight: 400;
+    line-height: 30px;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+.simpleText:hover{
+  text-decoration: none;
+  color: #3C4858;
+}
+.sidebarWrapper{
+    position: relative;
+    height: calc(100vh - 75px);
+    overflow: auto;
+    width: 260px;
+    z-index: 4;
+    padding-bottom: 30px;
+}
+.SideBar .nav{
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 0;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navLink{
+display: block;
+}
+.SideBar .navLink{
+    margin: 10px 15px 0;
+    border-radius: 3px;
+    color: #3C4858;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 10px 15px;
+}
+.navLink:hover{
+  text-decoration: none;
+  color: #3C4858;
+}
+.SideBar .nav p {
+    margin: 0;
+    line-height: 30px;
+    font-size: 14px;
+    position: relative;
+    display: block;
+    height: auto;
+    white-space: nowrap;
+    color: #7F8C96;
+}
+
+.SideBar .nav i{
+    font-size: 24px;
+    float: left;
+    margin-right: 15px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #a9afbb;
+}
+
+.active1{
+    background-color: #ff9800;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4);
+}
+.active1:hover{
+  background-color: #ff9800;
+}
+.SideBar .nav .active1 i{
+  color: white;
+}
+.SideBar .nav .active1 p{
+  color: white;
+}
+.navLink:hover{
+  background-color: #EEEEEE;
+}
+.active1:hover{
+  background-color: #ff9800;
+}
